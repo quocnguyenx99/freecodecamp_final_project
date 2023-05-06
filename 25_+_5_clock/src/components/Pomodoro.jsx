@@ -75,10 +75,10 @@ function Pomodoro() {
   return (
     <>
       <div className="max-w-xl p-4 backdrop-sepia-0 bg-white/30  rounded-lg">
-        <h1 className="main-title text-slate-50 text-6xl font-semibold">
+        <h1 className="main-title text-slate-50 text-5xl font-semibold text-center sm:text-6xl">
           Pomodoro Timer
         </h1>
-        <div className="length-wrapper mt-4 flex items-center justify-between">
+        <div className="length-wrapper mt-4 flex items-center  flex-wrap justify-center gap-5">
           <div className="length-control">
             <p className="break-label mb-4 text-slate-50 font-medium text-xl text-center">
               Break Length
@@ -145,7 +145,7 @@ function Pomodoro() {
       </div>
       <div className="author mt-8 text-center text-slate-50 font-medium">
         Designed and Coded by <br></br>
-        <a href="/" target="_blank" className="text-green-400 text-xl">
+        <a href="https://github.com/quocnguyenx99/freecodecamp_final_project" target="_blank" className="text-green-400 text-xl" rel="noreferrer">
           Henry
         </a>
       </div>
